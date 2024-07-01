@@ -1,0 +1,243 @@
+<html><head><base href="https://websim.ai" />
+    <title>L'Art Du Cinema</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
+        }
+        h2 {
+            font-size: 2.5rem;
+            color: #f0f;
+            text-shadow: 0 0 10px #f0f, 0 0 20px #f0f;
+            margin-top: 3rem;
+        }
+        .movie-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        .movie-item {
+            width: 18%;
+            margin-bottom: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .movie-item:hover {
+            transform: scale(1.05);
+        }
+        .movie-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+        .movie-item p {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: #0f0;
+            text-shadow: 0 0 5px #0f0;
+        }
+        @media (max-width: 768px) {
+            .movie-item {
+                width: 48%;
+            }
+        }
+        @media (max-width: 480px) {
+            .movie-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>L'Art Du Cinema</h1>
+
+        <h2>Top 10 Sci-Fi Movies</h2>
+        <div class="movie-list">
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/blade-runner/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg" alt="Blade Runner" width="200" height="300">
+                    <p>Blade Runner (1982)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/2001-a-space-odyssey/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg" alt="2001: A Space Odyssey" width="200" height="300">
+                    <p>2001: A Space Odyssey (1968)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/the-matrix/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg" alt="The Matrix" width="200" height="300">
+                    <p>The Matrix (1999)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/alien/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg" alt="Alien" width="200" height="300">
+                    <p>Alien (1979)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/inception/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" alt="Inception" width="200" height="300">
+                    <p>Inception (2010)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/metropolis/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/hUK9rewffKGqtXynH5SW3v9hzcu.jpg" alt="Metropolis" width="200" height="300">
+                    <p>Metropolis (1927)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/ex-machina-2014/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg" alt="Ex Machina" width="200" height="300">
+                    <p>Ex Machina (2014)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/the-terminator/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/qvktm0BHcnmDpul4Hz01GIazWPr.jpg" alt="The Terminator" width="200" height="300">
+                    <p>The Terminator (1984)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/arrival-2016/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg" alt="Arrival" width="200" height="300">
+                    <p>Arrival (2016)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/a-clockwork-orange/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg" alt="A Clockwork Orange" width="200" height="300">
+                    <p>A Clockwork Orange (1971)</p>
+                </a>
+            </div>
+        </div>
+
+        <h2>Top 10 Drama Movies</h2>
+        <div class="movie-list">
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/the-godfather/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" alt="The Godfather" width="200" height="300">
+                    <p>The Godfather (1972)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/the-shawshank-redemption/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" alt="The Shawshank Redemption" width="200" height="300">
+                    <p>The Shawshank Redemption (1994)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/schindlers-list/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg" alt="Schindler's List" width="200" height="300">
+                    <p>Schindler's List (1993)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/12-angry-men/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/ppd84D2i9W8jXmsyInGyihiSyqz.jpg" alt="12 Angry Men" width="200" height="300">
+                    <p>12 Angry Men (1957)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/forrest-gump/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg" alt="Forrest Gump" width="200" height="300">
+                    <p>Forrest Gump (1994)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/casablanca/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg" alt="Casablanca" width="200" height="300">
+                    <p>Casablanca (1942)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/one-flew-over-the-cuckoos-nest/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg" alt="One Flew Over the Cuckoo's Nest" width="200" height="300">
+                    <p>One Flew Over the Cuckoo's Nest (1975)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/goodfellas/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg" alt="Goodfellas" width="200" height="300">
+                    <p>Goodfellas (1990)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/citizen-kane/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg" alt="Citizen Kane" width="200" height="300">
+                    <p>Citizen Kane (1941)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/the-silence-of-the-lambs/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg" alt="The Silence of the Lambs" width="200" height="300">
+                    <p>The Silence of the Lambs (1991)</p>
+                </a>
+            </div>
+        </div>
+
+        <h2>Top 10 Action Movies</h2>
+        <div class="movie-list">
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/die-hard/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg" alt="Die Hard" width="200" height="300">
+                    <p>Die Hard (1988)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/mad-max-fury-road/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg" alt="Mad Max: Fury Road" width="200" height="300">
+                    <p>Mad Max: Fury Road (2015)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/the-dark-knight/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="The Dark Knight" width="200" height="300">
+                    <p>The Dark Knight (2008)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/raiders-of-the-lost-ark/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg" alt="Raiders of the Lost Ark" width="200" height="300">
+                    <p>Raiders of the Lost Ark (1981)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/terminator-2-judgment-day/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/weVXMD5QBGeQil4HEATZqAkXeEc.jpg" alt="Terminator 2: Judgment Day" width="200" height="300">
+                    <p>Terminator 2: Judgment Day (1991)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/the-matrix/" target="_blank">
+                    <img src="https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg" alt="The Matrix" width="200" height="300">
+                    <p>The Matrix (1999)</p>
+                </a>
+            </div>
+            <div class="movie-item">
+                <a href="https://letterboxd.com/film/john-wick/" target="_blank">
+                    <img
